@@ -4,7 +4,7 @@ package main.java.exercicio01.questao09;
 public class exercicio09 {
     public static void main(String[] args) {
       for (int numero = 0; numero <=10; numero++){
-          System.out.println(numero * numero);
+          System.out.println(Math.pow(numero,2));
       }
     }
 }
